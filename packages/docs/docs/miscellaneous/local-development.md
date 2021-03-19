@@ -160,7 +160,7 @@ And that’s it! You can go back to regular development now!
 
 ## Notes
 
-- `yarn` will use hoisting. What does it mean for you ?
+- `yarn` will use hosting. What does it mean for you ?
   - It will regroup all dependencies in the workspace root and link all packages.
 - You have to take care to declare all dependencies inside subFolders package.json. When publish the lib if dependencies from a package is not declare it will just not work.
 - There is a special package you should have a look is @vuepress/shared-utils that are in TypeScript.
